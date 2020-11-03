@@ -16,12 +16,12 @@ public class Driver {
     for (int i = 0; i < 1000; i++) {
       c1.scores(1);
       c2.assists(1);
-      c1.assists(pObj.getPoints()-1);
-      c3.scores(pObj.getPoints()-1);
-      c3.assists(pObj.getPoints()-1);
-
+      c3.scores(1);
+      c3.assists(1);
+      if(pObj.getPoints() < 10*i)
+        c1.assists(-1);
+      else c1.assists(-2);
     }
-
     System.out.println(pObj.getPoints());
   }
 

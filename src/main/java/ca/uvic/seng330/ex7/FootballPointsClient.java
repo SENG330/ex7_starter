@@ -10,4 +10,17 @@ public class FootballPointsClient extends PointsClient {
 
   }
 
+  @Override
+  public void scores(int i) {
+    super.scores(7*i);
+  }
+
+  /**
+   * no assists in (American) football
+   * @param i
+   */
+  @Override
+  public void assists(int i) {
+    super.scores(0);
+  }
 }

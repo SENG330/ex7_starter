@@ -7,6 +7,10 @@ public class Points {
   private int assists;
   private int goals;
 
+  public Points() {
+    assists = goals = 0;
+  }
+
   public int getPoints() {
     return assists+goals;
   }
@@ -16,6 +20,6 @@ public class Points {
   }
 
   public void setGoals(int pGoals) {
-    assists += pGoals;
+    goals += pGoals;
   }
 }
