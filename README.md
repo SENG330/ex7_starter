@@ -12,6 +12,7 @@ In this exercise you will explore the benefits and limitations of inheritance-fl
 	- Document what smells you found.
 	- Now fix them using refactoring (other than `rename`). A good list of possible refactorings is https://refactoring.guru/refactoring. 
 	- Create a document that shows before and after code snippets. Do this by using commits, in which commit X-1 shows the bad smell, and commit X shows the refactored code. Your submission needs to record at least 6 commit SHA-1 hashes (the first 8-10 characters are fine): 3 before and 3 after.
+	- Link to the line of code in which the smell occurs, like this: https://github.com/SENG330/ex5_starter/commit/83d5a6e8866432bf9e7453b87e0e97996db778ca#diff-9c1be2884a04419ef1ad1b7f690b2b48d230027d27ca6b09efc23e0ecb04aa91R14
 
 ## Learning Objectives
 - types and inheritance
